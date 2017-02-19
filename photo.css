@@ -1,0 +1,15 @@
+img {
+	width: 30%;/*% relative to parent element, in this case body*/
+	float: left;/*takes elements out of flow of doc*/
+	margin: 1.66%;/*each picture is 10%, gives us 30% width, now must account for all 6 margins, each margin is 1.6*/ 
+}
+
+p {
+	font-family: 'Raleway';
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	border-bottom: 2px solid #f1f1f1;
+	width: 30%;
+	padding-bottom: 20px;
+}
